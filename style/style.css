@@ -37,7 +37,7 @@ html {
 }
 
 #header #menu{
-    flex: 50%;
+    flex: 55%;
     display: flex;
     justify-content: center;
     background-color: inherit;
@@ -470,7 +470,7 @@ nav ul li a {
   }
 
   #header-social {
-      flex: 20%;
+      flex: 15%;
   }
   
   #header-social, #header-social a, #header-social a img {
