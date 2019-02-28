@@ -292,13 +292,13 @@ nav ul li a {
     width: 100%;
     height: 8px;
     margin-bottom: 5px;
-    background-color: #bbb;
+    background-color: #fff;
     transition: all 0.3s ease-in-out;
   }
   
   .navbar-on .bar1,
   .navbar-on .bar2,
-  .navbar-on .bar3 { background-color: #bbb; }
+  .navbar-on .bar3 { background-color: #fff; }
   
   .navbar-on .bar1 {
     transform-origin: 10% 40%;
