@@ -239,7 +239,7 @@ html {
 }
 
 nav {
-  position: fixed;
+  position: absolute;
   z-index: 10;
   /* background-color: rgba(231,76,60, 0.95); */
   width: 100%;

@@ -1,5 +1,10 @@
 $(document).ready(function () {
 
+    if ($(window).width() > 768) {
+        $('head').append('<script src="scripts/scroll-entrance.js"></script>');
+        $('head').append('<style>[data-entrance] { visibility: hidden; }</style>');
+    }
+
     $("#demo").sliderUi({
         // Options
         caption: true
