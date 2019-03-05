@@ -407,7 +407,7 @@ nav ul li a {
   #footer {
       display: flex;
       justify-content: space-around;
-      align-items: flex-start;
+      align-items: center;
       margin-top: 30px;
       padding-top: 20px;
       padding-bottom : 20px;
@@ -471,6 +471,9 @@ nav ul li a {
 
   #header-social {
       flex: 15%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
   }
   
   #header-social, #header-social a, #header-social a img {
@@ -485,7 +488,6 @@ nav ul li a {
       width: 30px;
       margin: 5px;
   }
-
 
 @media screen and (max-width:870px)
 {
