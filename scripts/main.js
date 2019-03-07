@@ -11,6 +11,14 @@ $(document).ready(function () {
 
     });
 
+    $(window).scroll(function(){
+        if($(document).scrollTop() > 100) {
+            $('#header').addClass('small');
+        } else {
+            $('#header').removeClass('small');
+        }
+    });
+
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function() {scrollFunction()};
 

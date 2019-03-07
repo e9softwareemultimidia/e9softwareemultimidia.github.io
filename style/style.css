@@ -18,6 +18,19 @@ html {
     align-items: center;
     background-color: #222;
     color: #fff;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    font-size: 15px;
+}
+
+#header.small {
+    font-size: 12px;
+    height: 70px;
+}
+
+#content {
+    padding-top: 100px;
 }
 
 #header #logo {
@@ -34,6 +47,12 @@ html {
     height: 80px;
     padding: 10px 30px;
     background-color: inherit;
+    transition: 0.2s;
+}
+
+#header.small .logomarca {
+    height: 60px;
+    width: auto;
 }
 
 #header #menu{
@@ -50,7 +69,7 @@ html {
     margin-left:0px;
     padding: 10px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: inherit;
     text-transform: uppercase;
     transition: 0.2s;
     background-color: inherit;
@@ -64,6 +83,43 @@ html {
     padding-bottom: 8px;
     background-color: inherit;
     color:inherit;  
+}
+
+#header-social {
+    flex: 15%;
+}
+
+#header-social, #header-social a, #header-social a img {
+    background-color: #222;
+}
+
+#header-social a {
+    width: 70px;
+}
+
+#header-social a img {
+    width: 30px;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+#header-social {
+    flex: 15%;
+}
+
+#header-social, #header-social a, #header-social a img {
+    background-color: #222;
+}
+
+#header.small #header-social a {
+    width: 30px;
+    height: auto;
+}
+
+#header.small #header-social a img {
+    width: 25px;
+    height: auto;
+    margin: 5px;
 }
 
 #content {
@@ -467,26 +523,6 @@ nav ul li a {
       height: auto;
       margin: 5px;
       margin-top: 10px;
-  }
-
-  #header-social {
-      flex: 15%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
-  
-  #header-social, #header-social a, #header-social a img {
-      background-color: #222;
-  }
-
-  #header-social a {
-      width: 70px;
-  }
-
-  #header-social a img {
-      width: 30px;
-      margin: 5px;
   }
 
 @media screen and (max-width:870px)
