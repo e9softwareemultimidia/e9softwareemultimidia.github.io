@@ -50,11 +50,6 @@ html {
     transition: 0.2s;
 }
 
-#header.small .logomarca {
-    height: 60px;
-    width: auto;
-}
-
 #header #menu{
     flex: 55%;
     display: flex;
@@ -109,17 +104,6 @@ html {
 
 #header-social, #header-social a, #header-social a img {
     background-color: #222;
-}
-
-#header.small #header-social a {
-    width: 30px;
-    height: auto;
-}
-
-#header.small #header-social a img {
-    width: 25px;
-    height: auto;
-    margin: 5px;
 }
 
 #content {
@@ -612,4 +596,30 @@ nav ul li a {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+@media screen and (min-width: 870px) {
+    #header.small {
+        font-size: 12px;
+        height: 70px;
+    }
+
+    #header.small .logomarca {
+        height: 60px;
+        width: auto;
+    }
+
+    #header.small #header-social a {
+        width: 30px;
+        height: auto;
+    }
+    
+    #header.small #header-social a img {
+        width: 25px;
+        height: auto;
+        margin: 5px;
+    }
+
+
+    
 }

@@ -12,7 +12,7 @@ $(document).ready(function () {
     });
 
     $(window).scroll(function(){
-        if($(document).scrollTop() > 100) {
+        if($(document).scrollTop() > 100 && $(window).width() > 870) {
             $('#header').addClass('small');
         } else {
             $('#header').removeClass('small');
